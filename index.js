@@ -44,9 +44,9 @@ let lastTrafficPostId = null;
 const REFERRAL_COMMISSION = 0.15; 
 
 let config = {
-    otpGroup: "https://t.me/nhotpnumber",
+    otpGroup: "https://t.me/nhotpooj",
     updateGroup: "https://t.me/otpmethodokk",
-    otpUsername: "@nhotpnumber",
+    otpUsername: "@nhotpooj",
     updateUsername: "@otpmethodokk",
     otpButtonText: "Get Number Now",
     otpButtonUrl: "https://t.me/YourBotLink",
