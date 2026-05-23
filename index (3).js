@@ -10,8 +10,8 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`));
 
 // --- CONFIG ---
-const TOKEN = '8413633586:AAHAX5uBc_Dc2H8VrakF3lbLPFkM1F3wpIE';
-const ADMIN_ID = 7488161246;
+const TOKEN = '8808551290:AAE1sfjmD3PINgBltV5jyNzi7t9kS2lHp7U';
+const ADMIN_ID = 7366391050;
 
 // UPDATED NEXA CONFIG
 const NEXA_API_KEY = 'nxa_a0c78ce02c9a7cee35d9886f72d4c42935a63863';
@@ -791,7 +791,7 @@ bot.on('callback_query', async (query) => {
 
                         // --- NEW EXPLICIT SPECIFIED UI FORMAT (SCREENSHOT & TEXT MATCH) ---
                         const assignedCaption = `𓆩𓆩.${flag}🟢 ASSIGNED .𓆪𓆪\n` +
-                                                `Flag ᯓ𝙲𝚘𝚞𝚗тку » ${country}\n` +
+                                                `${flag} ᯓ𝙲𝚘𝚞𝚗тку » ${country}\n` +
                                                 `☎️ ᯓ𝗡𝘂𝗺𝗯𝗲𝗿 » \`+${response.data.number}\`\n` +
                                                 `⏳ᯓStatus » waiting for sms\n` +
                                                 `💰ᯓREWARDS » $${reward.toFixed(4)}`;
